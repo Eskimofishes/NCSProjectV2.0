@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7449367597235159104
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 995.1825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000018239021
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 975.3034
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000046106987
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000019016068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000072191015
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_Name
+      value: Priest Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cf56a4966ecb8d84aab61b9b86e22a4b, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3818087637250928606}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7772384181469088607}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 94b1bdc0f0aa39245a09660b49a81230,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6879124123869789214}
+  m_SourcePrefab: {fileID: 100100000, guid: 94b1bdc0f0aa39245a09660b49a81230, type: 3}
+--- !u!1 &7755217858280094993 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 94b1bdc0f0aa39245a09660b49a81230,
+    type: 3}
+  m_PrefabInstance: {fileID: 7449367597235159104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3818087637250928606
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7755217858280094993}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!65 &7772384181469088607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7755217858280094993}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5, y: 2, z: 5}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &6879124123869789214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7755217858280094993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2b05c1148ab2843aa40c2b292fce79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInRange: 0
+  isTalkingWithPlayer: 0
+  quests:
+  - questName: Damsel in distress
+    questDescription: Help the old fella gather some rabbits.
+    accepted: 0
+    declined: 0
+    initialDialogCompleted: 0
+    isCompleted: 0
+    hasNoRequirements: 0
+    info: {fileID: 11400000, guid: 0aa0fc465243e0f4493c05c38fe99dcb, type: 2}
+  currentActiveQuest:
+    questName: 
+    questDescription: 
+    accepted: 0
+    declined: 0
+    initialDialogCompleted: 0
+    isCompleted: 0
+    hasNoRequirements: 0
+    info: {fileID: 0}
+  activeQuestIndex: 0
+  firstTimeInteraction: 1
+  currentDialog: 0
