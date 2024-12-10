@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c154e7e958e6634590fb03efd242c4d, type: 3}
+  m_Name: Quest1
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - Hey! Over here!
+  - "God has not forsaken me for me to be able to meet another person this far out.
+    \nI am Priest Takil, I come from a village not far from here."
+  - I was supposed to hunt some rabbits but God suddenly prevented me from doing
+    it myself, darn.
+  - 'It must have been fate for you to come across me today.
+
+    HE prevents me
+    from hunting, but he sends me a proxy instead HAHA.
+
+    You shall hunt the rabbits
+    for me.'
+  - 'Bah, you are young and strong, stop whining.
+
+    I''ll give you a place to
+    stay for the night and cook you a meal.
+
+    Now just go already!'
+  acceptOption: 'Sure.
+
+    I could use a place to stay.'
+  acceptAnswer: 'Awesome.
+
+    Go get me 7 pieces of rabbit meat, that should be
+    enough for the 2 of us.'
+  declineOption: Crazy old man.
+  declineAnswer: "... \n[Grumbles incoherently]"
+  comebackAfterDecline: Did you finnally found space for god in your heart you born
+    sinful scum?
+  comebackInProgress: Not enough, I said 7, can you count?
+  comebackCompleted: "There we go. \nFollow me, let us head back now.\nYou took so
+    long the sun has almost set."
+  finalWords: You do not want to still be here once the sun full sets......
+  coinReward: 1
+  rewardItem1: 
+  rewardItem2: 
+  firstRequirmentItem: Rabbit
+  firstRequirementAmount: 7
+  secondRequirmentItem: 
+  secondRequirementAmount: 0
